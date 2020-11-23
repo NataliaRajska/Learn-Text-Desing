@@ -98,15 +98,14 @@ li {
 }
 
 label {
+    color: #A01C36;
     display: block;
     font-family: 'Lato', Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 22px;
     margin-bottom: 10px;
     text-transform: uppercase;
-    font-size: 26px;
-    color: #A01C36;
 }
 
 img {
@@ -244,13 +243,14 @@ small {
     color: #2a2a2a;
     display: inline-block;
     font-family: 'Lato', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
     line-height: normal;
     padding: 15px 30px;
     text-align: center;
     text-decoration: none;
-    transition: opacity 0.5s ease;
-    font-weight: 700;
     text-transform: uppercase;
+    transition: opacity 0.5s ease;
 }
 
 .button:hover {
@@ -314,6 +314,7 @@ textarea {
     position: relative;
     width: 90%;
     margin: auto;
+    padding:  30px 15px;
 }
 
 .site-main-background {
@@ -330,6 +331,7 @@ textarea {
 
 .site-main-header {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .site-main-section-header {
@@ -352,18 +354,17 @@ textarea {
 
 .recipe-info {
     margin-bottom: 20px;
-
 }
 
 .recipe-info-item {
     font-size: 12px;
-    margin-bottom: 5px;
     font-weight: 700;
     text-transform: uppercase;
+    margin-bottom: 5px;
 }
 
 .recipe-preview {
-    margin-bottom: 5px;
+    margin-bottom: 60px;
 }
 
 .recipe-preview:first-child {
