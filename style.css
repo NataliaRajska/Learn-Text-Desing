@@ -52,7 +52,6 @@ h6 {
     font-family: 'Lato', Helvetica, sans-serif;
     font-weight: 700;
     transition: font-size 0.25s ease;
-    letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
@@ -77,9 +76,8 @@ p {
     color: #414546;
     font-family: 'Lato', Helvetica, sans-serif;
     font-size: 16px;
-    line-height: 15px;
-    margin: 0 0 15px;
     line-height: 23px;
+    margin: 0 0 15px;
 }
 
 a {
@@ -257,6 +255,9 @@ small {
 .button:hover {
     opacity: 0.75;
 }
+.button-primary {
+    background-color: #E9BE53;
+}
 
 .button-secondary {
     background-color: #FFFFFF;
@@ -359,10 +360,10 @@ textarea {
 
 .recipe-info-item {
     font-size: 12px;
+    line-height: 26px;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 5px;
-    line-height: 26px;
 }
 
 .recipe-preview {
